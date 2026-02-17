@@ -144,5 +144,6 @@ private:
     colorPalette.set(COLOR_PRIMARY, M5.Display.color565(comp.r, comp.g, comp.b));
      
     avatar.setColorPalette(colorPalette);
+    avatar.setMouthOpenRatio(brightness / 255.0f);
   }
 };
